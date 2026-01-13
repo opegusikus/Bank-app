@@ -1,0 +1,12 @@
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.vcxproj.AssemblyReference.cache
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.vcxproj.SuggestedBindingRedirects.cache
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.CreditForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.DepositForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.HistoryForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.LoginForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.MyForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.Payments.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.TopUpMobile.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.TransferForm.resources
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.vcxproj.GenerateResource.cache
+F:\Programming\Semestr3\BankApp\BankApp\x64\Release\BankApp.vcxproj.CopyComplete

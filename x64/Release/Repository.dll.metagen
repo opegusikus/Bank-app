@@ -1,0 +1,127 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Repository, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51: 
+	hash=None, flags=None
+Class Card: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, Int32, Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Balance 'get set' : 
+    Int32 SecurCode 'get set' : 
+    Int32 Cvv  'get set' : 
+    System.String CardNumber 'get set' : 
+  Methods:
+    CreateCardPanel(Point): PrivateScope, Public, HideBySig
+    get_CardNumber(): PrivateScope, Public, HideBySig, SpecialName
+    set_CardNumber(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Cvv(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cvv(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_SecurCode(): PrivateScope, Public, HideBySig, SpecialName
+    set_SecurCode(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Balance(): PrivateScope, Public, HideBySig, SpecialName
+    set_Balance(Double): PrivateScope, Public, HideBySig, SpecialName
+Class Account: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+    Void .ctor(System.String, System.String, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[Card] Cards 'get set' : 
+    System.String NumberPhone 'get set' : 
+    System.String Password 'get set' : 
+    System.String Login 'get set' : 
+  Methods:
+    get_Login(): PrivateScope, Public, HideBySig, SpecialName
+    set_Login(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Password(): PrivateScope, Public, HideBySig, SpecialName
+    set_Password(String): PrivateScope, Public, HideBySig, SpecialName
+    get_NumberPhone(): PrivateScope, Public, HideBySig, SpecialName
+    set_NumberPhone(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Cards(): PrivateScope, Public, HideBySig, SpecialName
+    set_Cards(List`1): PrivateScope, Public, HideBySig, SpecialName
+Class AccountRepository: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[Account] Accounts 'get set' : 
+  Methods:
+    get_Accounts(): PrivateScope, Public, HideBySig, SpecialName
+    set_Accounts(List`1): PrivateScope, Public, HideBySig, SpecialName
+    Create(Account): PrivateScope, Public, HideBySig
+    Delete(Account): PrivateScope, Public, HideBySig
+    GetAll(): PrivateScope, Public, HideBySig
+    Save(): PrivateScope, Public, HideBySig
+    Login(String, String): PrivateScope, Public, HideBySig
+    FindCard(String): PrivateScope, Public, HideBySig
+    TransferMoney(String, String, Double): PrivateScope, Public, HideBySig
+Class Deposit: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double InterestRate 'get set' : 
+    Double Sum 'get set' : 
+    Int32 Month 'get set' : 
+    System.String Login 'get set' : 
+  Methods:
+    get_Login(): PrivateScope, Public, HideBySig, SpecialName
+    set_Login(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Month(): PrivateScope, Public, HideBySig, SpecialName
+    set_Month(Int32): PrivateScope, Public, HideBySig, SpecialName
+    get_Sum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sum(Double): PrivateScope, Public, HideBySig, SpecialName
+    get_InterestRate(): PrivateScope, Public, HideBySig, SpecialName
+    set_InterestRate(Double): PrivateScope, Public, HideBySig, SpecialName
+    CalculateInterestRate(): PrivateScope, Public, HideBySig
+    GetDepositSum(): PrivateScope, Public, HideBySig
+Class DepositRepository: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[Deposit] Deposits 'get set' : 
+  Methods:
+    get_Deposits(): PrivateScope, Public, HideBySig, SpecialName
+    set_Deposits(List`1): PrivateScope, Public, HideBySig, SpecialName
+    Create(Deposit): PrivateScope, Public, HideBySig
+    GetAll(): PrivateScope, Public, HideBySig
+    Save(): PrivateScope, Public, HideBySig
+    GetDepositByLogin(String): PrivateScope, Public, HideBySig
+Class History: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    Double Sum 'get set' : 
+    Boolean IsCredit 'get set' : 
+    System.ValueType Date 'get set' DateTime IsBoxed : 
+    System.String Operation 'get set' : 
+    System.String CardNumver 'get set' : 
+  Methods:
+    get_CardNumver(): PrivateScope, Public, HideBySig, SpecialName
+    set_CardNumver(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Operation(): PrivateScope, Public, HideBySig, SpecialName
+    set_Operation(String): PrivateScope, Public, HideBySig, SpecialName
+    get_Date(): PrivateScope, Public, HideBySig, SpecialName
+    set_Date(ValueType DateTime IsBoxed): PrivateScope, Public, HideBySig, SpecialName
+    get_IsCredit(): PrivateScope, Public, HideBySig, SpecialName
+    set_IsCredit(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig, SpecialName
+    get_Sum(): PrivateScope, Public, HideBySig, SpecialName
+    set_Sum(Double): PrivateScope, Public, HideBySig, SpecialName
+Class HistoryRepository: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.Collections.Generic.List`1[History] Histories 'get set' : 
+  Methods:
+    get_Histories(): PrivateScope, Public, HideBySig, SpecialName
+    set_Histories(List`1): PrivateScope, Public, HideBySig, SpecialName
+    Create(History): PrivateScope, Public, HideBySig
+    GetAll(): PrivateScope, Public, HideBySig
+    Save(): PrivateScope, Public, HideBySig
+    GetHistoriesByCardNumber(String): PrivateScope, Public, HideBySig

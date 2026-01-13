@@ -1,0 +1,4 @@
+C:\Users\Fox\source\repos\BankApp\Repository\x64\Debug\Repository.vcxproj.AssemblyReference.cache
+C:\Users\Fox\source\repos\BankApp\Repository\x64\Debug\Repository.vcxproj.CopyComplete
+F:\Programming\Semestr3\BankApp\Repository\x64\Debug\Repository.vcxproj.AssemblyReference.cache
+F:\Programming\Semestr3\BankApp\Repository\x64\Debug\Repository.vcxproj.CopyComplete

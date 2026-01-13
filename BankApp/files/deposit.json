@@ -1,0 +1,14 @@
+[
+  {
+    "InterestRate": 18.0,
+    "Sum": 1234.0,
+    "Month": 12,
+    "Login": "Nick123"
+  },
+  {
+    "InterestRate": 4.5,
+    "Sum": 9000.0,
+    "Month": 3,
+    "Login": "Loli565"
+  }
+]

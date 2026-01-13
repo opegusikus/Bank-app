@@ -1,0 +1,52 @@
+[
+  {
+    "Cards": null,
+    "NumberPhone": "+364746575",
+    "Password": "password",
+    "Login": "Login"
+  },
+  {
+    "Cards": null,
+    "NumberPhone": "+364746575",
+    "Password": "password",
+    "Login": "Login"
+  },
+  {
+    "Cards": [
+      {
+        "Balance": 7513.4399999999987,
+        "SecurCode": 4675,
+        "Cvv": 123,
+        "CardNumber": "365484658697"
+      },
+      {
+        "Balance": 701.0,
+        "SecurCode": 4675,
+        "Cvv": 123,
+        "CardNumber": "13449573997"
+      }
+    ],
+    "NumberPhone": "+380992287754",
+    "Password": "ITfox565",
+    "Login": "Nick123"
+  },
+  {
+    "Cards": [
+      {
+        "Balance": 1289.0,
+        "SecurCode": 4675,
+        "Cvv": 123,
+        "CardNumber": "1846482674"
+      },
+      {
+        "Balance": 26140.0,
+        "SecurCode": 4675,
+        "Cvv": 123,
+        "CardNumber": "19267379521"
+      }
+    ],
+    "NumberPhone": "+380672963558",
+    "Password": "ITfox565",
+    "Login": "Loli565"
+  }
+]

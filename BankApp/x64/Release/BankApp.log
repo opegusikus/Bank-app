@@ -1,0 +1,10 @@
+﻿  CreditForm.cpp
+  DepositForm.cpp
+  Main.cpp
+F:\Programming\Semestr3\BankApp\BankApp\TransferForm.h(206,17): warning C4244: инициализация: преобразование "wchar_t" в "char", возможна потеря данных
+F:\Programming\Semestr3\BankApp\BankApp\TopUpMobile.h(196,18): warning C4244: инициализация: преобразование "wchar_t" в "char", возможна потеря данных
+  Payments.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Создание кода...
+  CreditForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  BankApp.vcxproj -> F:\Programming\Semestr3\BankApp\x64\Release\BankApp.exe

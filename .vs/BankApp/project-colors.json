@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "be02194c-3e4c-4ef5-b393-bf0efc8da2ed": {
+      "ProjectGuid": "be02194c-3e4c-4ef5-b393-bf0efc8da2ed",
+      "DisplayName": "BankApp",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    },
+    "c01b76b5-501f-42b3-b42d-0f086fa2a18c": {
+      "ProjectGuid": "c01b76b5-501f-42b3-b42d-0f086fa2a18c",
+      "DisplayName": "Repository",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

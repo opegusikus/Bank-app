@@ -1,0 +1,2 @@
+F:\Programming\Semestr3\BankApp\Repository\x64\Release\Repository.vcxproj.AssemblyReference.cache
+F:\Programming\Semestr3\BankApp\Repository\x64\Release\Repository.vcxproj.CopyComplete
